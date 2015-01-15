@@ -1,0 +1,40 @@
+// Start
+10 MUSIC				PHRASE MUSIC
+1 MUSIC 				END			
+// Phrases
+1 PHRASE			HALF_CADENCE FULL_CADENCE 
+1 PHRASE			FULL_CADENCE
+// Cadences
+1 FULL_CADENCE		_V I END_PHRASE
+1 FULL_CADENCE		_IV I END_PHRASE
+5 HALF_CADENCE		_I V END_PHRASE
+// Deceptives
+1 HALF_CADENCE		_V ii END_PHRASE
+1 HALF_CADENCE		_V iii END_PHRASE
+1 HALF_CADENCE		_V iv END_PHRASE
+1 HALF_CADENCE		_V vi END_PHRASE
+1 HALF_CADENCE		_V vii_dim END_PHRASE
+// // Chords
+// Standard Progressions
+1 _I		_vii_dim I
+1 _I		_IV I
+1 _I		_V I
+1 _ii		_vi ii
+1 _IV		_vi IV
+1 _IV		_iii IV
+1 _IV		_vi iii IV
+1 _V		_ii V
+1 _V		_iii V
+1 _V		_IV V
+1 _V		_vi V
+1 _vi		_iii vi
+1 _vi		_V vi
+1 _vii_dim	_ii vii_dim
+1 _I		I
+//  I to anything
+.6 _ii			_I ii
+.6 _iii			_I iii
+.6 _IV			_I IV
+.6 _V			_I V
+.6 _vi			_I vi
+.6 _vii_dim		_I vii_dim
